@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Load model
 model = pickle.load(open("loan_model.pkl", "rb"))
 
-st.title("💰 Loan Approval Prediction (AI + Explainable AI)")
+st.title(" Loan Approval Prediction (AI + Explainable AI)")
 
 # -------------------------------
 # INPUT FIELDS
@@ -62,7 +62,7 @@ if st.button("Predict"):
         credit_val = int(credit_history)
         property_val = ["Rural", "Semiurban", "Urban"].index(property_area)
 
-        # 🔥 DEFINE INPUT DATA HERE
+        #  DEFINE INPUT DATA HERE
         input_data = np.array([
             gender_val,
             married_val,
@@ -83,9 +83,9 @@ if st.button("Predict"):
         prediction = model.predict(input_data)
 
         if prediction[0] == 1:
-            st.success("✅ Loan Approved")
+            st.success(" Loan Approved")
         else:
-            st.error("❌ Loan Not Approved")
+            st.error(" Loan Not Approved")
 
         # -------------------------------
         # SHAP
