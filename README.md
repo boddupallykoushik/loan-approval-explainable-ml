@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  Loan Approval Prediction System with Explainable AI
 
 ##  Overview
@@ -99,3 +100,7 @@ The model considers the following inputs:
 Koushik
 B.Tech (CSE - AI & ML)
 Aspiring AI/ML Engineer
+=======
+# loan-approval-explainable-ml
+Loan Approval Prediction System with Explainable AI using Random Forest and Streamlit
+>>>>>>> a7070f7234080e99422110d1bf28a14b25f3f58e
