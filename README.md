@@ -97,7 +97,7 @@ The model considers the following inputs:
 
  Author
 
-Koushik
+Boddupally Koushik
 B.Tech (CSE - AI & ML)
 Aspiring AI/ML Engineer
 =======
